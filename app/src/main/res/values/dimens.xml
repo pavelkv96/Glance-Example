@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    Dimension values for previews. We define these as dimen values because they don't have to be
+    overridden unlike defining these as attributes.
+    -->
+    <dimen name="appWidgetRadius">16dp</dimen>
+    <dimen name="appWidgetInnerRadius">8dp</dimen>
+    <dimen name="appWidgetPadding">16dp</dimen>
+</resources>

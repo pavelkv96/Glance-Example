@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base application theme. -->
+    <style name="Theme.GlanceExample" parent="android:Theme.Material.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:colorPrimary">@color/purple_500</item>
+        <item name="android:colorPrimaryDark">@color/purple_700</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?android:attr/colorPrimaryDark</item>
+        <!-- Customize your theme here. -->
+    </style>
 
-    <style name="Theme.GlanceExample" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.GlanceExample.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- The themes below are only used for the preview layouts -->
+    <style name="Theme.GlanceExample.AppWidgetContainer" />
 </resources>
